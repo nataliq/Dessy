@@ -7,49 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		723F6330208C8E4900D4FDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F632F208C8E4900D4FDEF /* AppDelegate.swift */; };
-		723F6332208C8E4900D4FDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F6331208C8E4900D4FDEF /* ViewController.swift */; };
-		723F6335208C8E4900D4FDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723F6333208C8E4900D4FDEF /* Main.storyboard */; };
-		723F6337208C8E4A00D4FDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723F6336208C8E4A00D4FDEF /* Assets.xcassets */; };
-		723F633A208C8E4A00D4FDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723F6338208C8E4A00D4FDEF /* LaunchScreen.storyboard */; };
-		723F6345208C8E4A00D4FDEF /* DessyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723F6344208C8E4A00D4FDEF /* DessyTests.swift */; };
-		723F6351208C940500D4FDEF /* Flow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723F6350208C940500D4FDEF /* Flow.framework */; };
+		724CCB912084B01C001DAD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CCB902084B01C001DAD5D /* AppDelegate.swift */; };
+		724CCB932084B01C001DAD5D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CCB922084B01C001DAD5D /* LoginController.swift */; };
+		724CCB962084B01C001DAD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724CCB942084B01C001DAD5D /* Main.storyboard */; };
+		724CCB982084B01C001DAD5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724CCB972084B01C001DAD5D /* Assets.xcassets */; };
+		724CCB9B2084B01C001DAD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724CCB992084B01C001DAD5D /* LaunchScreen.storyboard */; };
+		724CCBA62084B01D001DAD5D /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724CCBA52084B01D001DAD5D /* ExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		723F6341208C8E4A00D4FDEF /* PBXContainerItemProxy */ = {
+		724CCBA22084B01D001DAD5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 723F6324208C8E4900D4FDEF /* Project object */;
+			containerPortal = 724CCB852084B01C001DAD5D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 723F632B208C8E4900D4FDEF;
-			remoteInfo = Dessy;
+			remoteGlobalIDString = 724CCB8C2084B01C001DAD5D;
+			remoteInfo = Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		723F632C208C8E4900D4FDEF /* Dessy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dessy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		723F632F208C8E4900D4FDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		723F6331208C8E4900D4FDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		723F6334208C8E4900D4FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		723F6336208C8E4A00D4FDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		723F6339208C8E4A00D4FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		723F633B208C8E4A00D4FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		723F6340208C8E4A00D4FDEF /* DessyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		723F6344208C8E4A00D4FDEF /* DessyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessyTests.swift; sourceTree = "<group>"; };
-		723F6346208C8E4A00D4FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		723F6350208C940500D4FDEF /* Flow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flow.framework; path = Carthage/Build/iOS/Flow.framework; sourceTree = "<group>"; };
+		724CCB8D2084B01C001DAD5D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724CCB902084B01C001DAD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724CCB922084B01C001DAD5D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		724CCB952084B01C001DAD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		724CCB972084B01C001DAD5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724CCB9A2084B01C001DAD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		724CCB9C2084B01C001DAD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724CCBA12084B01D001DAD5D /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724CCBA52084B01D001DAD5D /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		724CCBA72084B01D001DAD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		723F6329208C8E4900D4FDEF /* Frameworks */ = {
+		724CCB8A2084B01C001DAD5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723F6351208C940500D4FDEF /* Flow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		723F633D208C8E4A00D4FDEF /* Frameworks */ = {
+		724CCB9E2084B01D001DAD5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,114 +56,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		723F6323208C8E4900D4FDEF = {
+		724CCB842084B01C001DAD5D = {
 			isa = PBXGroup;
 			children = (
-				723F632E208C8E4900D4FDEF /* Dessy */,
-				723F6343208C8E4A00D4FDEF /* DessyTests */,
-				723F632D208C8E4900D4FDEF /* Products */,
-				723F634F208C940500D4FDEF /* Frameworks */,
+				724CCB8F2084B01C001DAD5D /* Example */,
+				724CCBA42084B01D001DAD5D /* ExampleTests */,
+				724CCB8E2084B01C001DAD5D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		723F632D208C8E4900D4FDEF /* Products */ = {
+		724CCB8E2084B01C001DAD5D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				723F632C208C8E4900D4FDEF /* Dessy.app */,
-				723F6340208C8E4A00D4FDEF /* DessyTests.xctest */,
+				724CCB8D2084B01C001DAD5D /* Example.app */,
+				724CCBA12084B01D001DAD5D /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		723F632E208C8E4900D4FDEF /* Dessy */ = {
+		724CCB8F2084B01C001DAD5D /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				723F632F208C8E4900D4FDEF /* AppDelegate.swift */,
-				723F6331208C8E4900D4FDEF /* ViewController.swift */,
-				723F6333208C8E4900D4FDEF /* Main.storyboard */,
-				723F6336208C8E4A00D4FDEF /* Assets.xcassets */,
-				723F6338208C8E4A00D4FDEF /* LaunchScreen.storyboard */,
-				723F633B208C8E4A00D4FDEF /* Info.plist */,
+				724CCB902084B01C001DAD5D /* AppDelegate.swift */,
+				724CCB922084B01C001DAD5D /* LoginController.swift */,
+				724CCB942084B01C001DAD5D /* Main.storyboard */,
+				724CCB972084B01C001DAD5D /* Assets.xcassets */,
+				724CCB992084B01C001DAD5D /* LaunchScreen.storyboard */,
+				724CCB9C2084B01C001DAD5D /* Info.plist */,
 			);
-			path = Dessy;
+			path = Example;
 			sourceTree = "<group>";
 		};
-		723F6343208C8E4A00D4FDEF /* DessyTests */ = {
+		724CCBA42084B01D001DAD5D /* ExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				723F6344208C8E4A00D4FDEF /* DessyTests.swift */,
-				723F6346208C8E4A00D4FDEF /* Info.plist */,
+				724CCBA52084B01D001DAD5D /* ExampleTests.swift */,
+				724CCBA72084B01D001DAD5D /* Info.plist */,
 			);
-			path = DessyTests;
-			sourceTree = "<group>";
-		};
-		723F634F208C940500D4FDEF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				723F6350208C940500D4FDEF /* Flow.framework */,
-			);
-			name = Frameworks;
+			path = ExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		723F632B208C8E4900D4FDEF /* Dessy */ = {
+		724CCB8C2084B01C001DAD5D /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 723F6349208C8E4A00D4FDEF /* Build configuration list for PBXNativeTarget "Dessy" */;
+			buildConfigurationList = 724CCBAA2084B01D001DAD5D /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				723F6328208C8E4900D4FDEF /* Sources */,
-				723F6329208C8E4900D4FDEF /* Frameworks */,
-				723F632A208C8E4900D4FDEF /* Resources */,
-				723F6352208C940900D4FDEF /* ShellScript */,
+				724CCB892084B01C001DAD5D /* Sources */,
+				724CCB8A2084B01C001DAD5D /* Frameworks */,
+				724CCB8B2084B01C001DAD5D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Dessy;
-			productName = Dessy;
-			productReference = 723F632C208C8E4900D4FDEF /* Dessy.app */;
+			name = Example;
+			productName = Example;
+			productReference = 724CCB8D2084B01C001DAD5D /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		723F633F208C8E4A00D4FDEF /* DessyTests */ = {
+		724CCBA02084B01D001DAD5D /* ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 723F634C208C8E4A00D4FDEF /* Build configuration list for PBXNativeTarget "DessyTests" */;
+			buildConfigurationList = 724CCBAD2084B01D001DAD5D /* Build configuration list for PBXNativeTarget "ExampleTests" */;
 			buildPhases = (
-				723F633C208C8E4A00D4FDEF /* Sources */,
-				723F633D208C8E4A00D4FDEF /* Frameworks */,
-				723F633E208C8E4A00D4FDEF /* Resources */,
+				724CCB9D2084B01D001DAD5D /* Sources */,
+				724CCB9E2084B01D001DAD5D /* Frameworks */,
+				724CCB9F2084B01D001DAD5D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				723F6342208C8E4A00D4FDEF /* PBXTargetDependency */,
+				724CCBA32084B01D001DAD5D /* PBXTargetDependency */,
 			);
-			name = DessyTests;
-			productName = DessyTests;
-			productReference = 723F6340208C8E4A00D4FDEF /* DessyTests.xctest */;
+			name = ExampleTests;
+			productName = ExampleTests;
+			productReference = 724CCBA12084B01D001DAD5D /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		723F6324208C8E4900D4FDEF /* Project object */ = {
+		724CCB852084B01C001DAD5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = "Nataliya Patsovska";
+				ORGANIZATIONNAME = iZettle;
 				TargetAttributes = {
-					723F632B208C8E4900D4FDEF = {
+					724CCB8C2084B01C001DAD5D = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					723F633F208C8E4A00D4FDEF = {
+					724CCBA02084B01D001DAD5D = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = 723F632B208C8E4900D4FDEF;
+						TestTargetID = 724CCB8C2084B01C001DAD5D;
 					};
 				};
 			};
-			buildConfigurationList = 723F6327208C8E4900D4FDEF /* Build configuration list for PBXProject "Dessy" */;
+			buildConfigurationList = 724CCB882084B01C001DAD5D /* Build configuration list for PBXProject "Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,29 +161,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 723F6323208C8E4900D4FDEF;
-			productRefGroup = 723F632D208C8E4900D4FDEF /* Products */;
+			mainGroup = 724CCB842084B01C001DAD5D;
+			productRefGroup = 724CCB8E2084B01C001DAD5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				723F632B208C8E4900D4FDEF /* Dessy */,
-				723F633F208C8E4A00D4FDEF /* DessyTests */,
+				724CCB8C2084B01C001DAD5D /* Example */,
+				724CCBA02084B01D001DAD5D /* ExampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		723F632A208C8E4900D4FDEF /* Resources */ = {
+		724CCB8B2084B01C001DAD5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723F633A208C8E4A00D4FDEF /* LaunchScreen.storyboard in Resources */,
-				723F6337208C8E4A00D4FDEF /* Assets.xcassets in Resources */,
-				723F6335208C8E4900D4FDEF /* Main.storyboard in Resources */,
+				724CCB9B2084B01C001DAD5D /* LaunchScreen.storyboard in Resources */,
+				724CCB982084B01C001DAD5D /* Assets.xcassets in Resources */,
+				724CCB962084B01C001DAD5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		723F633E208C8E4A00D4FDEF /* Resources */ = {
+		724CCB9F2084B01D001DAD5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,65 +192,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		723F6352208C940900D4FDEF /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Flow.framework",
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Flow.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		723F6328208C8E4900D4FDEF /* Sources */ = {
+		724CCB892084B01C001DAD5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723F6332208C8E4900D4FDEF /* ViewController.swift in Sources */,
-				723F6330208C8E4900D4FDEF /* AppDelegate.swift in Sources */,
+				724CCB932084B01C001DAD5D /* LoginController.swift in Sources */,
+				724CCB912084B01C001DAD5D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		723F633C208C8E4A00D4FDEF /* Sources */ = {
+		724CCB9D2084B01D001DAD5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				723F6345208C8E4A00D4FDEF /* DessyTests.swift in Sources */,
+				724CCBA62084B01D001DAD5D /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		723F6342208C8E4A00D4FDEF /* PBXTargetDependency */ = {
+		724CCBA32084B01D001DAD5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 723F632B208C8E4900D4FDEF /* Dessy */;
-			targetProxy = 723F6341208C8E4A00D4FDEF /* PBXContainerItemProxy */;
+			target = 724CCB8C2084B01C001DAD5D /* Example */;
+			targetProxy = 724CCBA22084B01D001DAD5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		723F6333208C8E4900D4FDEF /* Main.storyboard */ = {
+		724CCB942084B01C001DAD5D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				723F6334208C8E4900D4FDEF /* Base */,
+				724CCB952084B01C001DAD5D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		723F6338208C8E4A00D4FDEF /* LaunchScreen.storyboard */ = {
+		724CCB992084B01C001DAD5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				723F6339208C8E4A00D4FDEF /* Base */,
+				724CCB9A2084B01C001DAD5D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -271,7 +240,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		723F6347208C8E4A00D4FDEF /* Debug */ = {
+		724CCBA82084B01D001DAD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +300,7 @@
 			};
 			name = Debug;
 		};
-		723F6348208C8E4A00D4FDEF /* Release */ = {
+		724CCBA92084B01D001DAD5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,119 +354,111 @@
 			};
 			name = Release;
 		};
-		723F634A208C8E4A00D4FDEF /* Debug */ = {
+		724CCBAB2084B01D001DAD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Dessy/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandroy.Dessy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		723F634B208C8E4A00D4FDEF /* Release */ = {
+		724CCBAC2084B01D001DAD5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = Dessy/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandroy.Dessy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		723F634D208C8E4A00D4FDEF /* Debug */ = {
+		724CCBAE2084B01D001DAD5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DessyTests/Info.plist;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandroy.DessyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.ExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dessy.app/Dessy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
 		};
-		723F634E208C8E4A00D4FDEF /* Release */ = {
+		724CCBAF2084B01D001DAD5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DessyTests/Info.plist;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandroy.DessyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.izettle.ExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dessy.app/Dessy";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		723F6327208C8E4900D4FDEF /* Build configuration list for PBXProject "Dessy" */ = {
+		724CCB882084B01C001DAD5D /* Build configuration list for PBXProject "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723F6347208C8E4A00D4FDEF /* Debug */,
-				723F6348208C8E4A00D4FDEF /* Release */,
+				724CCBA82084B01D001DAD5D /* Debug */,
+				724CCBA92084B01D001DAD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		723F6349208C8E4A00D4FDEF /* Build configuration list for PBXNativeTarget "Dessy" */ = {
+		724CCBAA2084B01D001DAD5D /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723F634A208C8E4A00D4FDEF /* Debug */,
-				723F634B208C8E4A00D4FDEF /* Release */,
+				724CCBAB2084B01D001DAD5D /* Debug */,
+				724CCBAC2084B01D001DAD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		723F634C208C8E4A00D4FDEF /* Build configuration list for PBXNativeTarget "DessyTests" */ = {
+		724CCBAD2084B01D001DAD5D /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				723F634D208C8E4A00D4FDEF /* Debug */,
-				723F634E208C8E4A00D4FDEF /* Release */,
+				724CCBAE2084B01D001DAD5D /* Debug */,
+				724CCBAF2084B01D001DAD5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 723F6324208C8E4900D4FDEF /* Project object */;
+	rootObject = 724CCB852084B01C001DAD5D /* Project object */;
 }
